@@ -1,0 +1,11 @@
+# ninja log v5
+5	10867	1669593702108049744	CMakeFiles/pds2.dir/Level.cpp.o	b81c812e8f6c7337
+2	1439	1669595552456101163	CMakeFiles/pds2.dir/Background.cpp.o	f91d537d7ac22a8
+0	125	1669764617336215958	build.ninja	a0d029eddee6cf90
+2	4223	1669722250560179902	CMakeFiles/pds2.dir/Screen.cpp.o	9fe0ecce626bd681
+3	2265	1669595596744102394	CMakeFiles/pds2.dir/Hole.cpp.o	fea36f45a8d1a146
+3	10866	1669593702104049744	CMakeFiles/pds2.dir/Entity.cpp.o	81930daaff40bc8d
+6	10868	1669593702104049744	CMakeFiles/pds2.dir/Origem.cpp.o	7300d670eee574b4
+2	2128	1669595596608102390	CMakeFiles/pds2.dir/Ball.cpp.o	b16ad5810b653625
+2	4220	1669722250560179902	CMakeFiles/pds2.dir/Launcher.cpp.o	d1e14c2370432b8c
+5	10867	1669593702112049745	CMakeFiles/pds2.dir/Level1.cpp.o	e14598c1910b6a94

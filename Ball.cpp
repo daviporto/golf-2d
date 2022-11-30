@@ -4,7 +4,7 @@ const double FRICTION = 0.02;
 Ball::Ball(SDL_Renderer* ren, SDL_Texture* Ball_Tx, double init_x_pos, double init_y_pos, const double ball_radius) {
 	this->Set_pbrect();
 	this->Set_Render(ren);
-//	this->Set_Surface(IMG_Load("C:\\Users\\User\\OneDrive\\Imagens\\GolfBG.png"));
+	this->Set_Surface(IMG_Load("../images/GolfBG.png"));
 	this->Set_Texture(Ball_Tx);
 	this->Set_X(init_x_pos);
 	this->Set_Y(init_y_pos);

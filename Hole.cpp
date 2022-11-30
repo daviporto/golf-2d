@@ -7,7 +7,7 @@ Hole::Hole(SDL_Renderer* ren, SDL_Texture* Hole_Tx, double init_x_pos, double in
 	this->Set_Y(init_y_pos);
 	this->Set_Render(ren);
 	this->Set_Texture(Hole_Tx);
-//	this->Set_Surface(IMG_Load("C:\\Users\\User\\OneDrive\\Imagens\\Hole.png"));
+	this->Set_Surface(IMG_Load("../images/Hole.png"));
 	this->Set_pbrect();
 }
 void Hole::Aum_Tam(double Var_r) {

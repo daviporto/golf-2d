@@ -5,20 +5,20 @@ Level1::Level1() {
 	this->Set_pos_hole_init_x(875);
 	this->Set_pos_hole_init_y(120);
 	this->ball =new Ball (this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
-//		IMG_Load("C:\\Users\\User\\OneDrive\\Imagens\\GolfBall.png")), this->Get_pos_ball_init_x(),
+		IMG_Load("../images/GolfBall.png")), this->Get_pos_ball_init_x(),
 		this->Get_pos_ball_init_y(), 15);
 	this->hole = new Hole(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
-//		IMG_Load("C:\\Users\\User\\OneDrive\\Imagens\\Hole.png")),
+		IMG_Load("../images/Hole.png")),
 		this->Get_pos_hole_init_x(), this->Get_pos_hole_init_y(), 15);
 	this->BG = new Background(0,this->Get_Main_Launcher_Render());
 	this->Set_Time(60);
 	this->Set_Remaining_Moves(3);
 	SDL_RenderCopy(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(), 
-//		IMG_Load("C:\\Users\\User\\OneDrive\\Imagens\\GolfBG.png")), NULL, NULL);
+		IMG_Load("../images/GolfBG.png")), NULL, NULL);
 	SDL_RenderCopy(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
-//		IMG_Load("C:\\Users\\User\\OneDrive\\Imagens\\Hole.png")), NULL, this->hole->Get_pbrect());
+		IMG_Load("../images/Hole.png")), NULL, this->hole->Get_pbrect());
 	SDL_RenderCopy(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
-//		IMG_Load("C:\\Users\\User\\OneDrive\\Imagens\\Golfball.png")), NULL, this->ball->Get_pbrect());
+		IMG_Load("../images/Golfball.png")), NULL, this->ball->Get_pbrect());
 	SDL_RenderPresent(this->Get_Main_Launcher_Render());
 	//Tentar entender pq o launcher n pode ficar estatico e tentar fazer a bola mexer sem apagar tudo o 
 	//construtor de level ta gerando a primeria imagem, o mover de lvel tem q enviar um bg q inclua o buraco tbm e a bola pra mexer nesse cenario conjunto

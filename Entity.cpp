@@ -1,14 +1,14 @@
 #include "Entity.h"
-void Entity::Set_W(int W) {
+void Entity::Set_W(double W) {
 	this->brect.w = W;
 }
-void Entity::Set_H(int H) {
+void Entity::Set_H(double H) {
 	this->brect.h = H;
 }
-void Entity::Set_X(int X) {
+void Entity::Set_X(double X) {
 	this->brect.x = X;
 }
-void Entity::Set_Y(int Y) {
+void Entity::Set_Y(double Y) {
 	this->brect.y = Y;
 }
 void Entity::Set_Surface(SDL_Surface* Sur) {
@@ -21,18 +21,18 @@ void Entity::Set_Texture(SDL_Texture* Tex) {
 	this->Tex = Tex;
 }
 void Entity::Set_pbrect() {
-	this->pbrect=&(this->brect);
+	this->pbrect = &(this->brect);
 }
-int Entity::Get_W() {
+double Entity::Get_W() {
 	return this->brect.w;
 }
-int Entity::Get_H() {
+double Entity::Get_H() {
 	return this->brect.h;
 }
-int Entity::Get_X() {
+double Entity::Get_X() {
 	return this->brect.x;
 }
-int Entity::Get_Y() {
+double Entity::Get_Y() {
 	return this->brect.y;
 }
 SDL_Surface* Entity::Get_Surface() {

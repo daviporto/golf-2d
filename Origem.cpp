@@ -148,37 +148,6 @@ int main(int argc, char* argv[])
 
         }
     }
-    Level4 level_4;
-    while (level_4.Get_Run())
-    {
-        while (SDL_PollEvent(&event))
-        {
-            switch (event.type)
-            {
-                //Confere caso de fechamento de Janela
-            case SDL_QUIT:
-                run = false;
-                break;
-            }
-            if (SDL_MOUSEBUTTONDOWN == event.type)
-            {
-                if (SDL_BUTTON_LEFT == event.button.button)
-                {
-                    SDL_PumpEvents();
-                    SDL_GetMouseState(&cursor_x_init, &cursor_y_init);
-                }
-            }
-            if (SDL_MOUSEBUTTONUP == event.type)
-            {
-                if (SDL_BUTTON_LEFT == event.button.button)
-                {
-                    level_4.Mover_Ball(cursor_x_init - cursor_x_final, cursor_y_init - cursor_y_final, level_4.Get_pRun());
-                }
-
-            }
-
-        }
-    }
         SDL_DestroyWindow(level_1.Get_Launcher().Get_Screen().Get_Window());
         IMG_Quit();
         SDL_Quit();

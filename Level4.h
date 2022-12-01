@@ -1,6 +1,7 @@
 #pragma once
 #include "Level.h"
-class Level3 :
+#include "Timer.h"
+class Level4 :
     public Level
 {
 private:
@@ -9,7 +10,7 @@ private:
     Obstacle* obstacle_2;
     Obstacle* obstacle_3;
 public:
-    Level3();
+    Level4();
     void Mover_Ball(double Var_x, double Var_y, bool* run) override;
-    ~Level3();
+    ~Level4();
 };

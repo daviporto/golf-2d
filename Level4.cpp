@@ -1,10 +1,10 @@
-﻿#include "Level3.h"
-Level3::Level3()
+﻿#include "Level4.h"
+Level4::Level4()
 {
 	this->Set_pos_ball_init_x(150);
-	this->Set_pos_ball_init_y(400);
-	this->Set_pos_hole_init_x(900);
-	this->Set_pos_hole_init_y(400);
+	this->Set_pos_ball_init_y(365);
+	this->Set_pos_hole_init_x(492);
+	this->Set_pos_hole_init_y(365);
 	this->ball = new Ball(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
 		IMG_Load("Imagens_Golf\\GolfBall.png")), this->Get_pos_ball_init_x(),
 		this->Get_pos_ball_init_y(), 15);
@@ -15,19 +15,21 @@ Level3::Level3()
 
 	this->BG = new Background(0, this->Get_Main_Launcher_Render());
 
-	this->obstacle = new Obstacle(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
-		IMG_Load("Imagens_Golf\\Obs2.png")),
-		2, 286, 336, 128, 128);
-	this->obstacle_1 = new Obstacle(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
-		IMG_Load("Imagens_Golf\\Obs3.png")),
-		3, 436, 50, 128, 128);
-	this->obstacle_2 = new Obstacle(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
-		IMG_Load("Imagens_Golf\\Obs3.png")),
-		3, 436, 622, 128, 128);
-	this->obstacle_3 = new Obstacle(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
-		IMG_Load("Imagens_Golf\\Obs2.png")),
-		2, 586, 336, 128, 128);
 
+	this->obstacle = new Obstacle(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
+		IMG_Load("Imagens_Golf\\Obs1.png")),
+		0, 534, 357, 32, 32);
+	this->obstacle_1 = new Obstacle(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
+		IMG_Load("Imagens_Golf\\Obs.png")),
+		1, 434, 357, 32, 32);
+	this->obstacle_2 = new Obstacle(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
+		IMG_Load("Imagens_Golf\\Obs1.png")),
+		1, 484, 413, 32, 32);
+	this->obstacle_3 = new Obstacle(this->Get_Main_Launcher_Render(), SDL_CreateTextureFromSurface(this->Get_Main_Launcher_Render(),
+		IMG_Load("Imagens_Golf\\Obs.png")),
+		0, 484, 307, 32, 32);
+
+	this->Set_Time(60);
 	this->Set_Remaining_Moves(3);
 	SDL_RenderClear(this->Get_Main_Launcher_Render());
 	SDL_RenderCopy(this->Get_Main_Launcher_Render(), BG->Get_Tex(), NULL, BG->Get_pRect());
@@ -41,9 +43,10 @@ Level3::Level3()
 		IMG_Load("Imagens_Golf\\Golfball.png")), NULL, this->ball->Get_pbrect());
 	SDL_RenderPresent(this->Get_Main_Launcher_Render());
 }
-void Level3::Mover_Ball(double Var_x, double Var_y, bool* run) {
+void Level4::Mover_Ball(double Var_x, double Var_y, bool* run) {
 
 	this->Set_Remaining_Moves(this->Get_Remaining_Moves() - 1);
+
 
 	SDL_RenderPresent(this->Get_Main_Launcher_Render());
 	//Maximo da Velocity
@@ -87,7 +90,7 @@ void Level3::Mover_Ball(double Var_x, double Var_y, bool* run) {
 		std::cout << "GAME OVER" << std::endl;
 	}
 }
-Level3::~Level3() {
+Level4::~Level4() {
 	delete this->ball;
 	delete this->hole;
 	delete this->obstacle;

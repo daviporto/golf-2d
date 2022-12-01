@@ -16,4 +16,3 @@ public:
 	SDL_Rect Get_Rect();
 	SDL_Rect* Get_pRect();
 };
-

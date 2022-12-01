@@ -9,4 +9,3 @@ public:
     void Aum_Tam(double Var_r);
     bool Ball_Presence(double ball_x, double ball_y, double Velocity);
 };
-

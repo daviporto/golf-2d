@@ -1,5 +1,5 @@
 #include "Hole.h"
-const int margem_erro = 5;
+const int margem_erro = 8;
 Hole::Hole(SDL_Renderer* ren, SDL_Texture* Hole_Tx, double init_x_pos, double init_y_pos, const double hole_radius) {
 	this->Set_H(hole_radius);
 	this->Set_W(hole_radius);
@@ -19,7 +19,7 @@ void Hole::Dim_Tam(double Var_r) {
 	this->Set_H(this->Get_H() - Var_r);
 }
 bool Hole::Ball_Presence(double ball_x, double ball_y) {
-	if (ball_x - margem_erro < this->Get_X() < ball_x + margem_erro && ball_y - margem_erro < this->Get_Y() < ball_y)
+	if (((ball_x - margem_erro) < this->Get_X() && this->Get_X() < (ball_x + margem_erro)) && ((ball_y - margem_erro) < this->Get_Y() && this->Get_Y() < (ball_y + margem_erro)))
 		return true;
 	else return false;
 }

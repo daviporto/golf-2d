@@ -7,19 +7,21 @@
 #include "Launcher.h"
 #include "Hole.h"
 #include "Background.h"
+#include "Obstacle.h"
 class Level
 {
 private:
 	double Time;
 	int Remaining_Moves;
 	double pos_ball_init_x, pos_ball_init_y, pos_hole_init_x, pos_hole_init_y;
+	bool run = true;
+	bool* prun = &run;
 	Launcher l;
 protected:
 	Ball * ball;
 	Hole* hole;
 	Background* BG;
-public:
-
+public:;
 	void Dim_Moves();
 	int Get_Remaining_Moves();
 	double Get_Time();
@@ -35,6 +37,8 @@ public:
 	void Set_pos_hole_init_x(double x);
 	void Set_pos_hole_init_y(double y);
 	SDL_Renderer*Get_Main_Launcher_Render();
-	virtual void Mover_Ball(double Var_x, double Var_y)=0;
+	virtual void Mover_Ball(double Var_x, double Var_y, bool * run)=0;
+	bool Get_Run();
+	bool* Get_pRun();
 };
 

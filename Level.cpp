@@ -44,3 +44,9 @@ SDL_Renderer* Level::Get_Main_Launcher_Render() {
 Launcher Level::Get_Launcher() {
 	return this->l;
 }
+bool Level::Get_Run() {
+	return this->run;
+}
+bool* Level::Get_pRun() {
+	return this->prun;
+}

@@ -16,12 +16,12 @@ int main(int argc, char* argv[])
     int cursor_x_init, cursor_x_final, cursor_y_init, cursor_y_final;
     bool aux_bool = true;
     bool run = true;
-    //Criação de Evento 
+    //CriaÃ§Ã£o de Evento 
     SDL_Event event;
 
     while (level_1.Get_Run())
     {
-        //Inicialização Padrão de Evento de Tela
+        //InicializaÃ§Ã£o PadrÃ£o de Evento de Tela
         while (SDL_PollEvent(&event))
         {
                 switch (event.type)
@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
                     break;
                 }
 
-                //Essa próxima etapa consiste em verificar quando o jogador aperta a tela arrasta o mouse e solta, esse arrastar é feito a partir da diferença entre as posições do cursor
+                //Essa prÃ³xima etapa consiste em verificar quando o jogador aperta a tela arrasta o mouse e solta, esse arrastar Ã© feito a partir da diferenÃ§a entre as posiÃ§Ãµes do cursor
                 //quando o jogador aperta e solta
 
 
@@ -40,26 +40,26 @@ int main(int argc, char* argv[])
                     //Verifica se o Evento de Mouse -> ser apertado ocorreu
                 if (SDL_MOUSEBUTTONDOWN == event.type)
                 {
-                    //Verifica se a parte do Mouse apertada foi o botão esquerdo
+                    //Verifica se a parte do Mouse apertada foi o botÃ£o esquerdo
                     if (SDL_BUTTON_LEFT == event.button.button)
                     {
-                        //Função relacionada com os inputs de dispositivos
+                        //FunÃ§Ã£o relacionada com os inputs de dispositivos
                         SDL_PumpEvents();
-                        //Função que atribui ao valor associado ao endereço, a posição x e a posição y do cursor
+                        //FunÃ§Ã£o que atribui ao valor associado ao endereÃ§o, a posiÃ§Ã£o x e a posiÃ§Ã£o y do cursor
                         SDL_GetMouseState(&cursor_x_init, &cursor_y_init);
                     }
                 }
                 //Verifica se o Evento de Mouse -> ser soltado ocorreu
                 if (SDL_MOUSEBUTTONUP == event.type)
                 {
-                    //Verifica se a parte do Mouse soltada foi o botão esquerdo
+                    //Verifica se a parte do Mouse soltada foi o botÃ£o esquerdo
                     if (SDL_BUTTON_LEFT == event.button.button)
                     {
-                        //Função que atribui ao valor associado ao endereço, a posição x e a posição y do cursor
+                        //FunÃ§Ã£o que atribui ao valor associado ao endereÃ§o, a posiÃ§Ã£o x e a posiÃ§Ã£o y do cursor
                         SDL_GetMouseState(&cursor_x_final, &cursor_y_final);
-                        //Método da Struct FirstItem, quando a bola foi inicializada foi chamada de "BALL"
-                        //Método que pega as duas coordernadas e calcula o vetor q liga elas, ou seja, a linha mais curta entre os dois pontos
-                        //Método que gera cada frame de movimento da bola a partir de todos os dados passados através do mouse
+                        //MÃ©todo da Struct FirstItem, quando a bola foi inicializada foi chamada de "BALL"
+                        //MÃ©todo que pega as duas coordernadas e calcula o vetor q liga elas, ou seja, a linha mais curta entre os dois pontos
+                        //MÃ©todo que gera cada frame de movimento da bola a partir de todos os dados passados atravÃ©s do mouse
                         level_1.Mover_Ball(cursor_x_init - cursor_x_final, cursor_y_init - cursor_y_final, level_1.Get_pRun());
                     }
 
@@ -70,7 +70,7 @@ int main(int argc, char* argv[])
     Level2 level_2;
     while (level_2.Get_Run())
     {
-        //Inicialização Padrão de Evento de Tela
+        //InicializaÃ§Ã£o PadrÃ£o de Evento de Tela
         while (SDL_PollEvent(&event))
         {
             switch (event.type)
@@ -81,7 +81,7 @@ int main(int argc, char* argv[])
                 break;
             }
 
-            //Essa próxima etapa consiste em verificar quando o jogador aperta a tela arrasta o mouse e solta, esse arrastar é feito a partir da diferença entre as posições do cursor
+            //Essa prÃ³xima etapa consiste em verificar quando o jogador aperta a tela arrasta o mouse e solta, esse arrastar Ã© feito a partir da diferenÃ§a entre as posiÃ§Ãµes do cursor
             //quando o jogador aperta e solta
 
 
@@ -89,26 +89,26 @@ int main(int argc, char* argv[])
                 //Verifica se o Evento de Mouse -> ser apertado ocorreu
             if (SDL_MOUSEBUTTONDOWN == event.type)
             {
-                //Verifica se a parte do Mouse apertada foi o botão esquerdo
+                //Verifica se a parte do Mouse apertada foi o botÃ£o esquerdo
                 if (SDL_BUTTON_LEFT == event.button.button)
                 {
-                    //Função relacionada com os inputs de dispositivos
+                    //FunÃ§Ã£o relacionada com os inputs de dispositivos
                     SDL_PumpEvents();
-                    //Função que atribui ao valor associado ao endereço, a posição x e a posição y do cursor
+                    //FunÃ§Ã£o que atribui ao valor associado ao endereÃ§o, a posiÃ§Ã£o x e a posiÃ§Ã£o y do cursor
                     SDL_GetMouseState(&cursor_x_init, &cursor_y_init);
                 }
             }
             //Verifica se o Evento de Mouse -> ser soltado ocorreu
             if (SDL_MOUSEBUTTONUP == event.type)
             {
-                //Verifica se a parte do Mouse soltada foi o botão esquerdo
+                //Verifica se a parte do Mouse soltada foi o botÃ£o esquerdo
                 if (SDL_BUTTON_LEFT == event.button.button)
                 {
-                    //Função que atribui ao valor associado ao endereço, a posição x e a posição y do cursor
+                    //FunÃ§Ã£o que atribui ao valor associado ao endereÃ§o, a posiÃ§Ã£o x e a posiÃ§Ã£o y do cursor
                     SDL_GetMouseState(&cursor_x_final, &cursor_y_final);
-                    //Método da Struct FirstItem, quando a bola foi inicializada foi chamada de "BALL"
-                    //Método que pega as duas coordernadas e calcula o vetor q liga elas, ou seja, a linha mais curta entre os dois pontos
-                    //Método que gera cada frame de movimento da bola a partir de todos os dados passados através do mouse
+                    //MÃ©todo da Struct FirstItem, quando a bola foi inicializada foi chamada de "BALL"
+                    //MÃ©todo que pega as duas coordernadas e calcula o vetor q liga elas, ou seja, a linha mais curta entre os dois pontos
+                    //MÃ©todo que gera cada frame de movimento da bola a partir de todos os dados passados atravÃ©s do mouse
                     level_2.Mover_Ball(cursor_x_init - cursor_x_final, cursor_y_init - cursor_y_final, level_2.Get_pRun());
                 }
 
@@ -119,45 +119,28 @@ int main(int argc, char* argv[])
     Level3 level_3;
     while (level_3.Get_Run())
     {
-        //Inicialização Padrão de Evento de Tela
         while (SDL_PollEvent(&event))
         {
             switch (event.type)
             {
-                //Confere caso de fechamento de Janela
             case SDL_QUIT:
                 run = false;
                 break;
             }
-
-            //Essa próxima etapa consiste em verificar quando o jogador aperta a tela arrasta o mouse e solta, esse arrastar é feito a partir da diferença entre as posições do cursor
-            //quando o jogador aperta e solta
-
-
-
-                //Verifica se o Evento de Mouse -> ser apertado ocorreu
             if (SDL_MOUSEBUTTONDOWN == event.type)
             {
-                //Verifica se a parte do Mouse apertada foi o botão esquerdo
                 if (SDL_BUTTON_LEFT == event.button.button)
                 {
-                    //Função relacionada com os inputs de dispositivos
+                    //FunÃ§Ã£o relacionada com os inputs de dispositivos
                     SDL_PumpEvents();
-                    //Função que atribui ao valor associado ao endereço, a posição x e a posição y do cursor
+                    //FunÃ§Ã£o que atribui ao valor associado ao endereÃ§o, a posiÃ§Ã£o x e a posiÃ§Ã£o y do cursor
                     SDL_GetMouseState(&cursor_x_init, &cursor_y_init);
                 }
             }
-            //Verifica se o Evento de Mouse -> ser soltado ocorreu
             if (SDL_MOUSEBUTTONUP == event.type)
             {
-                //Verifica se a parte do Mouse soltada foi o botão esquerdo
                 if (SDL_BUTTON_LEFT == event.button.button)
                 {
-                    //Função que atribui ao valor associado ao endereço, a posição x e a posição y do cursor
-                    SDL_GetMouseState(&cursor_x_final, &cursor_y_final);
-                    //Método da Struct FirstItem, quando a bola foi inicializada foi chamada de "BALL"
-                    //Método que pega as duas coordernadas e calcula o vetor q liga elas, ou seja, a linha mais curta entre os dois pontos
-                    //Método que gera cada frame de movimento da bola a partir de todos os dados passados através do mouse
                     level_3.Mover_Ball(cursor_x_init - cursor_x_final, cursor_y_init - cursor_y_final, level_3.Get_pRun());
                 }
 
@@ -168,7 +151,6 @@ int main(int argc, char* argv[])
     Level4 level_4;
     while (level_4.Get_Run())
     {
-        //Inicialização Padrão de Evento de Tela
         while (SDL_PollEvent(&event))
         {
             switch (event.type)
@@ -178,35 +160,18 @@ int main(int argc, char* argv[])
                 run = false;
                 break;
             }
-
-            //Essa próxima etapa consiste em verificar quando o jogador aperta a tela arrasta o mouse e solta, esse arrastar é feito a partir da diferença entre as posições do cursor
-            //quando o jogador aperta e solta
-
-
-
-                //Verifica se o Evento de Mouse -> ser apertado ocorreu
             if (SDL_MOUSEBUTTONDOWN == event.type)
             {
-                //Verifica se a parte do Mouse apertada foi o botão esquerdo
                 if (SDL_BUTTON_LEFT == event.button.button)
                 {
-                    //Função relacionada com os inputs de dispositivos
                     SDL_PumpEvents();
-                    //Função que atribui ao valor associado ao endereço, a posição x e a posição y do cursor
                     SDL_GetMouseState(&cursor_x_init, &cursor_y_init);
                 }
             }
-            //Verifica se o Evento de Mouse -> ser soltado ocorreu
             if (SDL_MOUSEBUTTONUP == event.type)
             {
-                //Verifica se a parte do Mouse soltada foi o botão esquerdo
                 if (SDL_BUTTON_LEFT == event.button.button)
                 {
-                    //Função que atribui ao valor associado ao endereço, a posição x e a posição y do cursor
-                    SDL_GetMouseState(&cursor_x_final, &cursor_y_final);
-                    //Método da Struct FirstItem, quando a bola foi inicializada foi chamada de "BALL"
-                    //Método que pega as duas coordernadas e calcula o vetor q liga elas, ou seja, a linha mais curta entre os dois pontos
-                    //Método que gera cada frame de movimento da bola a partir de todos os dados passados através do mouse
                     level_4.Mover_Ball(cursor_x_init - cursor_x_final, cursor_y_init - cursor_y_final, level_4.Get_pRun());
                 }
 
@@ -214,8 +179,6 @@ int main(int argc, char* argv[])
 
         }
     }
-        /*SDL_DestroyTexture(level_1.Get_Launcher()
-        SDL_DestroyTexture(Ball_Tx);*/
         SDL_DestroyWindow(level_1.Get_Launcher().Get_Screen().Get_Window());
         IMG_Quit();
         SDL_Quit();

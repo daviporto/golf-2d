@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include "Entity.h"
 #include "Background.h"
 #include "Hole.h"
@@ -11,9 +12,7 @@ public:
     void Mover(Background* BG, Hole* hole, double Var_x, double Var_y,double Velocity, bool * run);
     void Mover(Background* BG, Hole* hole, double Var_x, double Var_y, double Velocity, bool* run, Obstacle * obs, Obstacle* obs_1, Obstacle* obs_2, Obstacle* obs_3);
     void Gerar_Atrito(double &Velocity);
-    void Dim_Tam(double Var_r);
-    void Aum_Tam(double Var_r);
-    bool Colision_x(int acres_x, Obstacle* obs, Obstacle* obs_1, Obstacle* obs_2, Obstacle* obs_3);
-    bool Colision_y(int acres_y, Obstacle* obs, Obstacle* obs_1, Obstacle* obs_2, Obstacle* obs_3);
+    void Dim_Tam(int Var_r);
+    void Aum_Tam(int Var_r);
 };
 

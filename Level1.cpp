@@ -56,9 +56,6 @@ void Level1::Mover_Ball(double Var_x, double Var_y, bool * run) {
 	if ((Var_y > 0 && aux_y < 0) || (Var_y < 0 && aux_y > 0))
 		Var_y = Var_y * -1;
 
-	std::cout << "Var_x: " << Var_x << "     Var_y: " << Var_y << std::endl;
-	std::cout << "Holder_x: " << holder_x << "    Holder_y: " << holder_y << std::endl;
-
 
 	this->ball->Mover(this->BG,this->hole,Var_x, Var_y,Velocity, run);
 }

@@ -10,18 +10,18 @@ private:
 	SDL_Texture* Tex;
 	SDL_Rect brect;
 public:
-	void Set_W(double W);
-	void Set_H(double H);
-	void Set_X(double X);
-	void Set_Y(double Y);
+	void Set_W(int W);
+	void Set_H(int H);
+	void Set_X(int X);
+	void Set_Y(int Y);
 	void Set_Surface(SDL_Surface * Sur);
 	void Set_Render(SDL_Renderer* Ren);
 	void Set_Texture(SDL_Texture* Tex);
 	void Set_pbrect();
-	double Get_W();
-	double Get_H();
-	double Get_X();
-	double Get_Y();
+	int Get_W();
+	int Get_H();
+	int Get_X();
+	int Get_Y();
 	SDL_Surface* Get_Surface();
 	SDL_Renderer* Get_Render();
 	SDL_Texture* Get_Tex();

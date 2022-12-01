@@ -18,8 +18,8 @@ void Hole::Dim_Tam(double Var_r) {
 	this->Set_W(this->Get_W() - Var_r);
 	this->Set_H(this->Get_H() - Var_r);
 }
-bool Hole::Ball_Presence(double ball_x, double ball_y) {
-	if (((ball_x - margem_erro) < this->Get_X() && this->Get_X() < (ball_x + margem_erro)) && ((ball_y - margem_erro) < this->Get_Y() && this->Get_Y() < (ball_y + margem_erro)))
+bool Hole::Ball_Presence(double ball_x, double ball_y, double Velocity) {
+	if (((ball_x - margem_erro) < this->Get_X() && this->Get_X() < (ball_x + margem_erro)) && ((ball_y - margem_erro) < this->Get_Y() && this->Get_Y() < (ball_y + margem_erro))&&Velocity<=0.5)
 		return true;
 	else return false;
 }

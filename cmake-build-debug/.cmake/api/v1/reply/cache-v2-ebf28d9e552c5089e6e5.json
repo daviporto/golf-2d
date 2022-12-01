@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/davi/Downloads/pds2/cmake-build-debug"
+			"value" : "/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -639,7 +639,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/davi/Downloads/pds2"
+			"value" : "/home/davi/Documents/ufmg/2_semestre/pds2Shit/final"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -879,7 +879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "pds2"
+			"value" : "final"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1198,18 +1198,6 @@
 			"value" : "[/usr/lib/x86_64-linux-gnu/libSDL2_ttf.so][/usr/include/SDL2][v2.0.15()]"
 		},
 		{
-			"name" : "SDL2IMAGE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2IMAGE."
-				}
-			],
-			"type" : "PATH",
-			"value" : "SDL2IMAGE_DIR-NOTFOUND"
-		},
-		{
 			"name" : "SDL2MAIN_LIBRARY",
 			"properties" : 
 			[
@@ -1224,18 +1212,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "SDL2MAIN_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "SDL2_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/SDL2"
 		},
 		{
 			"name" : "SDL2_IMAGE_INCLUDE_DIR",
@@ -1430,31 +1406,7 @@
 			"value" : ""
 		},
 		{
-			"name" : "SDL2_image_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL2_image."
-				}
-			],
-			"type" : "PATH",
-			"value" : "SDL2_image_DIR-NOTFOUND"
-		},
-		{
-			"name" : "SDL_IMAGE_LIBRARIES_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SDL_IMAGE_LIBRARIES."
-				}
-			],
-			"type" : "PATH",
-			"value" : "SDL_IMAGE_LIBRARIES_DIR-NOTFOUND"
-		},
-		{
-			"name" : "pds2_BINARY_DIR",
+			"name" : "final_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1463,10 +1415,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/davi/Downloads/pds2/cmake-build-debug"
+			"value" : "/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug"
 		},
 		{
-			"name" : "pds2_IS_TOP_LEVEL",
+			"name" : "final_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1478,7 +1430,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "pds2_SOURCE_DIR",
+			"name" : "final_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1487,19 +1439,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/davi/Downloads/pds2"
-		},
-		{
-			"name" : "sdl2-image_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for sdl2-image."
-				}
-			],
-			"type" : "PATH",
-			"value" : "sdl2-image_DIR-NOTFOUND"
+			"value" : "/home/davi/Documents/ufmg/2_semestre/pds2Shit/final"
 		}
 	],
 	"kind" : "cache",

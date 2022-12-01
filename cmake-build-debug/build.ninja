@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: pds2
+# Project: final
 # Configurations: Debug
 # =============================================================================
 
@@ -39,102 +39,137 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/davi/Downloads/pds2/cmake-build-debug/
+cmake_ninja_workdir = /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target pds2
+# Object build statements for EXECUTABLE target final
 
 
 #############################################
-# Order-only phony target for pds2
+# Order-only phony target for final
 
-build cmake_object_order_depends_target_pds2: phony || CMakeFiles/pds2.dir
+build cmake_object_order_depends_target_final: phony || CMakeFiles/final.dir
 
-build CMakeFiles/pds2.dir/Background.cpp.o: CXX_COMPILER__pds2_Debug /home/davi/Downloads/pds2/Background.cpp || cmake_object_order_depends_target_pds2
-  DEP_FILE = CMakeFiles/pds2.dir/Background.cpp.o.d
+build CMakeFiles/final.dir/Background.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Background.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Background.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/davi/Downloads/pds2/. -isystem /usr/include/SDL2
-  OBJECT_DIR = CMakeFiles/pds2.dir
-  OBJECT_FILE_DIR = CMakeFiles/pds2.dir
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
 
-build CMakeFiles/pds2.dir/Ball.cpp.o: CXX_COMPILER__pds2_Debug /home/davi/Downloads/pds2/Ball.cpp || cmake_object_order_depends_target_pds2
-  DEP_FILE = CMakeFiles/pds2.dir/Ball.cpp.o.d
+build CMakeFiles/final.dir/Ball.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Ball.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Ball.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/davi/Downloads/pds2/. -isystem /usr/include/SDL2
-  OBJECT_DIR = CMakeFiles/pds2.dir
-  OBJECT_FILE_DIR = CMakeFiles/pds2.dir
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
 
-build CMakeFiles/pds2.dir/Entity.cpp.o: CXX_COMPILER__pds2_Debug /home/davi/Downloads/pds2/Entity.cpp || cmake_object_order_depends_target_pds2
-  DEP_FILE = CMakeFiles/pds2.dir/Entity.cpp.o.d
+build CMakeFiles/final.dir/Entity.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Entity.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Entity.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/davi/Downloads/pds2/. -isystem /usr/include/SDL2
-  OBJECT_DIR = CMakeFiles/pds2.dir
-  OBJECT_FILE_DIR = CMakeFiles/pds2.dir
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
 
-build CMakeFiles/pds2.dir/Hole.cpp.o: CXX_COMPILER__pds2_Debug /home/davi/Downloads/pds2/Hole.cpp || cmake_object_order_depends_target_pds2
-  DEP_FILE = CMakeFiles/pds2.dir/Hole.cpp.o.d
+build CMakeFiles/final.dir/Hole.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Hole.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Hole.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/davi/Downloads/pds2/. -isystem /usr/include/SDL2
-  OBJECT_DIR = CMakeFiles/pds2.dir
-  OBJECT_FILE_DIR = CMakeFiles/pds2.dir
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
 
-build CMakeFiles/pds2.dir/Launcher.cpp.o: CXX_COMPILER__pds2_Debug /home/davi/Downloads/pds2/Launcher.cpp || cmake_object_order_depends_target_pds2
-  DEP_FILE = CMakeFiles/pds2.dir/Launcher.cpp.o.d
+build CMakeFiles/final.dir/Imagens.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Imagens.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Imagens.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/davi/Downloads/pds2/. -isystem /usr/include/SDL2
-  OBJECT_DIR = CMakeFiles/pds2.dir
-  OBJECT_FILE_DIR = CMakeFiles/pds2.dir
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
 
-build CMakeFiles/pds2.dir/Level.cpp.o: CXX_COMPILER__pds2_Debug /home/davi/Downloads/pds2/Level.cpp || cmake_object_order_depends_target_pds2
-  DEP_FILE = CMakeFiles/pds2.dir/Level.cpp.o.d
+build CMakeFiles/final.dir/Launcher.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Launcher.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Launcher.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/davi/Downloads/pds2/. -isystem /usr/include/SDL2
-  OBJECT_DIR = CMakeFiles/pds2.dir
-  OBJECT_FILE_DIR = CMakeFiles/pds2.dir
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
 
-build CMakeFiles/pds2.dir/Level1.cpp.o: CXX_COMPILER__pds2_Debug /home/davi/Downloads/pds2/Level1.cpp || cmake_object_order_depends_target_pds2
-  DEP_FILE = CMakeFiles/pds2.dir/Level1.cpp.o.d
+build CMakeFiles/final.dir/Level.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Level.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Level.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/davi/Downloads/pds2/. -isystem /usr/include/SDL2
-  OBJECT_DIR = CMakeFiles/pds2.dir
-  OBJECT_FILE_DIR = CMakeFiles/pds2.dir
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
 
-build CMakeFiles/pds2.dir/Origem.cpp.o: CXX_COMPILER__pds2_Debug /home/davi/Downloads/pds2/Origem.cpp || cmake_object_order_depends_target_pds2
-  DEP_FILE = CMakeFiles/pds2.dir/Origem.cpp.o.d
+build CMakeFiles/final.dir/Level1.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Level1.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Level1.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/davi/Downloads/pds2/. -isystem /usr/include/SDL2
-  OBJECT_DIR = CMakeFiles/pds2.dir
-  OBJECT_FILE_DIR = CMakeFiles/pds2.dir
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
 
-build CMakeFiles/pds2.dir/Screen.cpp.o: CXX_COMPILER__pds2_Debug /home/davi/Downloads/pds2/Screen.cpp || cmake_object_order_depends_target_pds2
-  DEP_FILE = CMakeFiles/pds2.dir/Screen.cpp.o.d
+build CMakeFiles/final.dir/Level2.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Level2.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Level2.cpp.o.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I/home/davi/Downloads/pds2/. -isystem /usr/include/SDL2
-  OBJECT_DIR = CMakeFiles/pds2.dir
-  OBJECT_FILE_DIR = CMakeFiles/pds2.dir
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
+
+build CMakeFiles/final.dir/Level3.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Level3.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Level3.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
+
+build CMakeFiles/final.dir/Level4.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Level4.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Level4.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
+
+build CMakeFiles/final.dir/Obstacle.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Obstacle.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Obstacle.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
+
+build CMakeFiles/final.dir/Origem.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Origem.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Origem.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
+
+build CMakeFiles/final.dir/Screen.cpp.o: CXX_COMPILER__final_Debug /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/Screen.cpp || cmake_object_order_depends_target_final
+  DEP_FILE = CMakeFiles/final.dir/Screen.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/. -isystem /usr/include/SDL2
+  OBJECT_DIR = CMakeFiles/final.dir
+  OBJECT_FILE_DIR = CMakeFiles/final.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target pds2
+# Link build statements for EXECUTABLE target final
 
 
 #############################################
-# Link the executable pds2
+# Link the executable final
 
-build pds2: CXX_EXECUTABLE_LINKER__pds2_Debug CMakeFiles/pds2.dir/Background.cpp.o CMakeFiles/pds2.dir/Ball.cpp.o CMakeFiles/pds2.dir/Entity.cpp.o CMakeFiles/pds2.dir/Hole.cpp.o CMakeFiles/pds2.dir/Launcher.cpp.o CMakeFiles/pds2.dir/Level.cpp.o CMakeFiles/pds2.dir/Level1.cpp.o CMakeFiles/pds2.dir/Origem.cpp.o CMakeFiles/pds2.dir/Screen.cpp.o | /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so /usr/lib/x86_64-linux-gnu/libSDL2_image.so /usr/lib/x86_64-linux-gnu/libSDL2.so
+build final: CXX_EXECUTABLE_LINKER__final_Debug CMakeFiles/final.dir/Background.cpp.o CMakeFiles/final.dir/Ball.cpp.o CMakeFiles/final.dir/Entity.cpp.o CMakeFiles/final.dir/Hole.cpp.o CMakeFiles/final.dir/Imagens.cpp.o CMakeFiles/final.dir/Launcher.cpp.o CMakeFiles/final.dir/Level.cpp.o CMakeFiles/final.dir/Level1.cpp.o CMakeFiles/final.dir/Level2.cpp.o CMakeFiles/final.dir/Level3.cpp.o CMakeFiles/final.dir/Level4.cpp.o CMakeFiles/final.dir/Obstacle.cpp.o CMakeFiles/final.dir/Origem.cpp.o CMakeFiles/final.dir/Screen.cpp.o | /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so /usr/lib/x86_64-linux-gnu/libSDL2_image.so /usr/lib/x86_64-linux-gnu/libSDL2.so
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so  /usr/lib/x86_64-linux-gnu/libSDL2_image.so  /usr/lib/x86_64-linux-gnu/libSDL2.so  -lpthread
-  OBJECT_DIR = CMakeFiles/pds2.dir
+  OBJECT_DIR = CMakeFiles/final.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = pds2
-  TARGET_PDB = pds2.dbg
+  TARGET_FILE = final
+  TARGET_PDB = final.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/davi/Downloads/pds2/cmake-build-debug && /app/extra/clion/bin/cmake/linux/bin/ccmake -S/home/davi/Downloads/pds2 -B/home/davi/Downloads/pds2/cmake-build-debug
+  COMMAND = cd /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug && /app/extra/clion/bin/cmake/linux/bin/ccmake -S/home/davi/Documents/ufmg/2_semestre/pds2Shit/final -B/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -146,7 +181,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/davi/Downloads/pds2/cmake-build-debug && /app/extra/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/davi/Downloads/pds2 -B/home/davi/Downloads/pds2/cmake-build-debug
+  COMMAND = cd /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug && /app/extra/clion/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/davi/Documents/ufmg/2_semestre/pds2Shit/final -B/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -162,9 +197,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/davi/Downloads/pds2/cmake-build-debug
+# Folder: /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug
 
-build all: phony pds2
+build all: phony final
 
 # =============================================================================
 # Built-in targets
@@ -173,14 +208,14 @@ build all: phony pds2
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../cmake/FindSDL2.cmake ../cmake/FindSDL2_image.cmake ../cmake/FindSDL2_ttf.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFile.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../cmake/FindSDL2.cmake ../cmake/FindSDL2_image.cmake ../cmake/FindSDL2_ttf.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckFunctionExists.c /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFile.c.in /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFile.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../cmake/FindSDL2.cmake ../cmake/FindSDL2_image.cmake ../cmake/FindSDL2_ttf.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFile.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
+build ../CMakeLists.txt ../cmake/FindSDL2.cmake ../cmake/FindSDL2_image.cmake ../cmake/FindSDL2_ttf.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCXXInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckFunctionExists.c /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFile.c.in /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFile.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckLibraryExists.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-C.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Compiler/GNU.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageMessage.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindThreads.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/Linux.cmake /app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.22.3/CMakeCCompiler.cmake CMakeFiles/3.22.3/CMakeCXXCompiler.cmake CMakeFiles/3.22.3/CMakeSystem.cmake: phony
 
 
 #############################################

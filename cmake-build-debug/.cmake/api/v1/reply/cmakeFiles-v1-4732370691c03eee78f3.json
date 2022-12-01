@@ -152,6 +152,21 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "/app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckIncludeFile.c.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/CheckFunctionExists.c"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "/app/extra/clion/bin/cmake/linux/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
@@ -285,8 +300,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/davi/Downloads/pds2/cmake-build-debug",
-		"source" : "/home/davi/Downloads/pds2"
+		"build" : "/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug",
+		"source" : "/home/davi/Documents/ufmg/2_semestre/pds2Shit/final"
 	},
 	"version" : 
 	{

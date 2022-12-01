@@ -1,4 +1,4 @@
-# Install script for directory: /home/davi/Downloads/pds2
+# Install script for directory: /home/davi/Documents/ufmg/2_semestre/pds2Shit/final
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/davi/Downloads/pds2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

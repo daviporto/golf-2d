@@ -1,4 +1,7 @@
-/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/ninja -G Ninja -S /home/davi/Downloads/pds2 -B /home/davi/Downloads/pds2/cmake-build-debug
+/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/app/extra/clion/bin/ninja/linux/ninja -G Ninja -S /home/davi/Documents/ufmg/2_semestre/pds2Shit/final -B /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug
+-- Found SDL2: /usr/lib/x86_64-linux-gnu/libSDL2.so (found version "2.0.16") 
+-- Found SDL2_ttf: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so (found version "2.0.15") 
+-- Found SDL2_image: /usr/lib/x86_64-linux-gnu/libSDL2_image.so (found version "2.0.5") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/davi/Downloads/pds2/cmake-build-debug
+-- Build files have been written to: /home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug

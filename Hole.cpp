@@ -7,7 +7,7 @@ Hole::Hole(SDL_Renderer* ren, SDL_Texture* Hole_Tx, double init_x_pos, double in
 	this->Set_Y(init_y_pos);
 	this->Set_Render(ren);
 	this->Set_Texture(Hole_Tx);
-	this->Set_Surface(IMG_Load("../images/Hole.png"));
+	this->Set_Surface(IMG_Load("Imagens_Golf\\Hole.png"));
 	this->Set_pbrect();
 }
 void Hole::Aum_Tam(double Var_r) {
@@ -19,7 +19,7 @@ void Hole::Dim_Tam(double Var_r) {
 	this->Set_H(this->Get_H() - Var_r);
 }
 bool Hole::Ball_Presence(double ball_x, double ball_y, double Velocity) {
-	if (((ball_x - margem_erro) < this->Get_X() && this->Get_X() < (ball_x + margem_erro)) && ((ball_y - margem_erro) < this->Get_Y() && this->Get_Y() < (ball_y + margem_erro))&&Velocity<=0.5)
+	if (((ball_x - margem_erro) < this->Get_X() && this->Get_X() < (ball_x + margem_erro)) && ((ball_y - margem_erro) < this->Get_Y() && this->Get_Y() < (ball_y + margem_erro)) && Velocity <= 0.5)
 		return true;
 	else return false;
 }

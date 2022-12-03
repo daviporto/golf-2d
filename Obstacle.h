@@ -8,4 +8,3 @@ public:
 	bool Ball_Presence_x(int x, int y, int radius);
 	bool Ball_Presence_y(int x, int y, int radius);
 };
-

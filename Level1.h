@@ -8,7 +8,6 @@ class Level1 :
 {
 public:
     Level1();
-    void Mover_Ball(double Var_x, double Var_, bool * run) override;
+    void Mover_Ball(double Var_x, double Var_, bool* run) override;
     ~Level1();
 };
-

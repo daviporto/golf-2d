@@ -1,5 +1,6 @@
 #pragma once
 #include "Level.h"
+#include "Timer.h"
 class Level4 :
     public Level
 {
@@ -13,4 +14,3 @@ public:
     void Mover_Ball(double Var_x, double Var_y, bool* run) override;
     ~Level4();
 };
-

@@ -14,7 +14,48 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47065d0-4117-4539-a552-2e7ffc9b11b5" name="Changes" comment="" />
+    <list default="true" id="f47065d0-4117-4539-a552-2e7ffc9b11b5" name="Changes" comment="new version">
+      <change afterPath="$PROJECT_DIR$/CRC_Maker_Final.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallBASKETBALL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallBRUH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallCREEPY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallOCKLIN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallPOKEBALL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Imagens_Golf/Hole.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User Stories - PDS2.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Background.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Background.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ball.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ball.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ball.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity.h" beforeDir="false" afterPath="$PROJECT_DIR$/Entity.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/FirstItem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hole.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hole.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hole.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hole.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Launcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/Launcher.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level1.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level2.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level3.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Level4.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level4.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Obstacle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Obstacle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Obstacle.h" beforeDir="false" afterPath="$PROJECT_DIR$/Obstacle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Origem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Origem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screen.h" beforeDir="false" afterPath="$PROJECT_DIR$/Screen.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +65,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -33,6 +77,7 @@
     <option name="minorVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IJmSMAD8MeMcBddvDR05JAqdQJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,7 +96,8 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -60,11 +106,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="final" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="final" TARGET_NAME="final" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="final" RUN_TARGET_NAME="final">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -80,11 +121,36 @@
       <option name="presentableId" value="Default" />
       <updated>1669908058606</updated>
       <workItem from="1669908060213" duration="905000" />
-      <workItem from="1669908988578" duration="1137000" />
+      <workItem from="1669908988578" duration="12254000" />
+      <workItem from="1669931943551" duration="6000" />
+      <workItem from="1670027847362" duration="798000" />
     </task>
+    <task id="LOCAL-00001" summary="new version">
+      <created>1669910262167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669910262167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version" />
   </component>
 </project>

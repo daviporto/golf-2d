@@ -1,4 +1,4 @@
-	#pragma once
+#pragma once
 #include <iostream>
 #include <SDL_image.h>
 #include <SDL.h>
@@ -14,4 +14,3 @@ public:
 	SDL_Renderer* Get_Render();
 	Screen Get_Screen();
 };
-

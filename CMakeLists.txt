@@ -38,5 +38,7 @@ add_executable(final
         Obstacle.h
         Origem.cpp
         Screen.cpp
-        Screen.h)
+        Screen.h
+        Timer.h
+        Timer.cpp)
 target_link_libraries(${PROJECT_NAME} SDL2::Main SDL2::TTF SDL2::Image)

@@ -1,3 +1,0 @@
-/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug/CMakeFiles/final.dir
-/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/davi/Documents/ufmg/2_semestre/pds2Shit/final/cmake-build-debug/CMakeFiles/rebuild_cache.dir

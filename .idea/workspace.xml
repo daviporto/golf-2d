@@ -14,47 +14,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f47065d0-4117-4539-a552-2e7ffc9b11b5" name="Changes" comment="new version">
-      <change afterPath="$PROJECT_DIR$/CRC_Maker_Final.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBG4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallBASKETBALL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallBRUH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallCREEPY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallOCKLIN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/GolfBallPOKEBALL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Imagens_Golf/Hole.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User Stories - PDS2.pdf" afterDir="false" />
+    <list default="true" id="f47065d0-4117-4539-a552-2e7ffc9b11b5" name="Changes" comment="after merge">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Background.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Background.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ball.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ball.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ball.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity.h" beforeDir="false" afterPath="$PROJECT_DIR$/Entity.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/FirstItem.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hole.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Hole.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hole.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hole.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Launcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/Launcher.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level1.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level1.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level2.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level2.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level3.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Level4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level4.h" beforeDir="false" afterPath="$PROJECT_DIR$/Level4.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Obstacle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Obstacle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Obstacle.h" beforeDir="false" afterPath="$PROJECT_DIR$/Obstacle.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Origem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Origem.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screen.h" beforeDir="false" afterPath="$PROJECT_DIR$/Screen.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-4732370691c03eee78f3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f1cf2faebacee0f1e1d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-01T15-23-07-0279.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-final-Debug-8fc767eb7be6881b6251.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Background.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Background.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Ball.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Ball.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Hole.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Hole.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Launcher.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Launcher.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level1.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level3.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level3.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level4.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Level4.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Obstacle.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Obstacle.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Origem.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/final.dir/Origem.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/final" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/final" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +106,7 @@
       <workItem from="1669908060213" duration="905000" />
       <workItem from="1669908988578" duration="12254000" />
       <workItem from="1669931943551" duration="6000" />
-      <workItem from="1670027847362" duration="798000" />
+      <workItem from="1670027847362" duration="1037000" />
     </task>
     <task id="LOCAL-00001" summary="new version">
       <created>1669910262167</created>
@@ -132,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669910262167</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="after merge">
+      <created>1670029185567</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670029185567</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new version" />
-    <option name="LAST_COMMIT_MESSAGE" value="new version" />
+    <MESSAGE value="after merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="after merge" />
   </component>
 </project>
